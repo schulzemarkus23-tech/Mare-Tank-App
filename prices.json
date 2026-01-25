@@ -1,0 +1,201 @@
+{
+  "generated_at_utc": "2026-01-25T22:52:52.951053Z",
+  "stations": {
+    "st001": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st002": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st003": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st004": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st005": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st006": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st007": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st008": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st009": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st010": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st011": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st012": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st013": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st014": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st015": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st016": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st017": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st018": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st019": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st020": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st021": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st022": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st023": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st024": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st025": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st026": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st027": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st028": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st029": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st030": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st031": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st032": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st033": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st034": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st035": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st036": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st037": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st038": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st039": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st040": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st041": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st042": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st043": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st044": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st045": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st046": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st047": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st048": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    },
+    "st049": {
+      "diesel": null,
+      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+    }
+  }
+}

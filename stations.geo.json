@@ -1,0 +1,394 @@
+[
+  {
+    "id": "st001",
+    "region": "Tirol",
+    "raw_name_address": "Fritzens Innstraße 13, 6122 Fritzens 00.00-24.00",
+    "title": "Fritzens Innstraße 13, 6122 Fritzens",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st002",
+    "region": "Tirol",
+    "raw_name_address": "Kufstein Endach 33-34, 6330 Kufstein 00.00-24.00",
+    "title": "Kufstein Endach 33-34, 6330 Kufstein",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st003",
+    "region": "Tirol",
+    "raw_name_address": "Debant Nussdorf Drautal Bundesstr. 4, 9990 Debant Nussdorf 00.00-24.00",
+    "title": "Debant Nussdorf Drautal Bundesstr. 4, 9990 Debant Nussdorf",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st004",
+    "region": "Vorarlberg",
+    "raw_name_address": "Mäder  Industriestraße 7a, 6841 Mäder 00.00-24.00",
+    "title": "Mäder  Industriestraße 7a, 6841 Mäder",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st005",
+    "region": "Vorarlberg",
+    "raw_name_address": "HÖRBRANZ Autobahn 2R, 6912 Hörbranz 00.00-24.00",
+    "title": "HÖRBRANZ Autobahn 2R, 6912 Hörbranz",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st006",
+    "region": "Salzburg",
+    "raw_name_address": "Salzburg Stadt Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg 00.00-24.00",
+    "title": "Salzburg Stadt Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st007",
+    "region": "Salzburg",
+    "raw_name_address": "Wals Lagerhausstr. 2, 5071 Wals 00.00-24.00",
+    "title": "Wals Lagerhausstr. 2, 5071 Wals",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st008",
+    "region": "Salzburg",
+    "raw_name_address": "Golling Obergäu 310, 5440 Golling 05.00-22.00",
+    "title": "Golling Obergäu 310, 5440 Golling",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st009",
+    "region": "Salzburg",
+    "raw_name_address": "St. Johann i. Pongau Industriestraße 8, 5600 St. Johann i. Pongau 00.00-24.00",
+    "title": "St. Johann i. Pongau Industriestraße 8, 5600 St. Johann i. Pongau",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st010",
+    "region": "Salzburg",
+    "raw_name_address": "Bischofshofen Salzburgerstr. 90, 5500 Bischofshofen 05:30-22.00",
+    "title": "Bischofshofen Salzburgerstr. 90, 5500 Bischofshofen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st011",
+    "region": "Salzburg",
+    "raw_name_address": "FLACHAU Feuersang 337, 5542 Flachau 00.00-24.00",
+    "title": "FLACHAU Feuersang 337, 5542 Flachau",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st012",
+    "region": "Salzburg",
+    "raw_name_address": "FLACHAU Wagrainerstr. 337, 5542 Flachau 00.00-24.00",
+    "title": "FLACHAU Wagrainerstr. 337, 5542 Flachau",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st013",
+    "region": "Salzburg",
+    "raw_name_address": "Bruck Gewerbestr. 12, 5671 Bruck an der Glocknerstraße 00.00-24.00",
+    "title": "Bruck Gewerbestr. 12, 5671 Bruck an der Glocknerstraße",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st014",
+    "region": "Kärnten",
+    "raw_name_address": "ARNOLDSTEIN Industriestraße 8, 9601 Arnoldstein 00.00-24.00",
+    "title": "ARNOLDSTEIN Industriestraße 8, 9601 Arnoldstein",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st015",
+    "region": "Kärnten",
+    "raw_name_address": "Steinfeld Lindenweg 21, 9754 Steinfeld 00.00-24.00",
+    "title": "Steinfeld Lindenweg 21, 9754 Steinfeld",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st016",
+    "region": "Kärnten",
+    "raw_name_address": "Griffen Gewerbestr. 8, 9112 Griffen 00.00-24.00",
+    "title": "Griffen Gewerbestr. 8, 9112 Griffen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st017",
+    "region": "Kärnten",
+    "raw_name_address": "Völkermarkt Umfahrungsstr. 23, 9100 Völkermarkt 06.00-22.00",
+    "title": "Völkermarkt Umfahrungsstr. 23, 9100 Völkermarkt",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st018",
+    "region": "Kärnten",
+    "raw_name_address": "Wolfsberg Grazerstr. 1, 9400 Wolfsberg 07.00-22.00",
+    "title": "Wolfsberg Grazerstr. 1, 9400 Wolfsberg",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st019",
+    "region": "Kärnten",
+    "raw_name_address": "Paternion Gewerbepark, 9711 Paternion 00.00-24.00",
+    "title": "Paternion Gewerbepark, 9711 Paternion",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st020",
+    "region": "Kärnten",
+    "raw_name_address": "Klagenfurt Ost Thomas,- Bohrer-Straße 4, 9020 Klagenfurt 06.30-21.30",
+    "title": "Klagenfurt Ost Thomas,- Bohrer-Straße 4, 9020 Klagenfurt",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st021",
+    "region": "Steiermark",
+    "raw_name_address": "Feldkirchen Anton Hermann Straße 3, 8073 Feldkirchen 00.00-24.00",
+    "title": "Feldkirchen Anton Hermann Straße 3, 8073 Feldkirchen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st022",
+    "region": "Steiermark",
+    "raw_name_address": "Graz Kärntnerstr. 291, 8054 Graz 00.00-24.00",
+    "title": "Graz Kärntnerstr. 291, 8054 Graz",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st023",
+    "region": "Steiermark",
+    "raw_name_address": "Spielfeld Bundesstr. 40, 8472 Spielfeld 00.00-24.00",
+    "title": "Spielfeld Bundesstr. 40, 8472 Spielfeld",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st024",
+    "region": "Steiermark",
+    "raw_name_address": "Sinabelkirchen Untergrossau 180, 8261 Sinabelkirchen 00.00-24.00",
+    "title": "Sinabelkirchen Untergrossau 180, 8261 Sinabelkirchen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st025",
+    "region": "Steiermark",
+    "raw_name_address": "Knittelfeld Leobner Straße 09, 8720 Knittelfeld 00.00-24.00",
+    "title": "Knittelfeld Leobner Straße 09, 8720 Knittelfeld",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st026",
+    "region": "Steiermark",
+    "raw_name_address": "Leoben Zeltenschlagerstraße 2, 8700 Leoben 00.00-24.00",
+    "title": "Leoben Zeltenschlagerstraße 2, 8700 Leoben",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st027",
+    "region": "Steiermark",
+    "raw_name_address": "Haus im Ennstal Hohenfeld 89, 8967 Haus im Ennstal 00.00-24.00",
+    "title": "Haus im Ennstal Hohenfeld 89, 8967 Haus im Ennstal",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st028",
+    "region": "Niederösterreich",
+    "raw_name_address": "St. Valentin Handelsstr. 7, 4300 St. Valentin 00.00-24.00",
+    "title": "St. Valentin Handelsstr. 7, 4300 St. Valentin",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st029",
+    "region": "Niederösterreich",
+    "raw_name_address": "Oed Oldtimerweg 1, 3312 Oed bei Amstetten 00.00-24.00",
+    "title": "Oed Oldtimerweg 1, 3312 Oed bei Amstetten",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st030",
+    "region": "Niederösterreich",
+    "raw_name_address": "Maroli - Drasenhofen K Vápence 609, 692 01 Mikulov 00.00-24.00",
+    "title": "Maroli - Drasenhofen K Vápence 609, 692 01 Mikulov",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st031",
+    "region": "Niederösterreich",
+    "raw_name_address": "Alland Gewerbestr. EXIT N°15, 2534 Alland 00.00-24.00",
+    "title": "Alland Gewerbestr. EXIT N°15, 2534 Alland",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st032",
+    "region": "Niederösterreich",
+    "raw_name_address": "Nähe Laa an der Thaya Hevlin 471, CZ-67169 Hevlin 00.00-24.00",
+    "title": "Nähe Laa an der Thaya Hevlin 471, CZ-67169 Hevlin",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st033",
+    "region": "Oberösterreich",
+    "raw_name_address": "SUBEN  Andiesen 17, 4975 Andiesen 00.00-24.00",
+    "title": "SUBEN  Andiesen 17, 4975 Andiesen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st034",
+    "region": "Oberösterreich",
+    "raw_name_address": "St. Marienkirchen/Suben Andiesen 13, 4774 St. Marienkirchen 00.00-24.00",
+    "title": "St. Marienkirchen/Suben Andiesen 13, 4774 St. Marienkirchen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st035",
+    "region": "Oberösterreich",
+    "raw_name_address": "Ort im Innkreis Kammer 44, 4981 Reichersberg 00.00-24.00",
+    "title": "Ort im Innkreis Kammer 44, 4981 Reichersberg",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st036",
+    "region": "Oberösterreich",
+    "raw_name_address": "Laakirchen Johannes Humer-Straße 2, 4663 Laakirchen 00.00-24.00",
+    "title": "Laakirchen Johannes Humer-Straße 2, 4663 Laakirchen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st037",
+    "region": "Oberösterreich",
+    "raw_name_address": "Linz Pummererstraße 22, 4020 Linz 00.00-24.00",
+    "title": "Linz Pummererstraße 22, 4020 Linz",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st038",
+    "region": "Oberösterreich",
+    "raw_name_address": "Nähe Wullowitz Linecká 263, 38241 Kaplice 00.00-24.00",
+    "title": "Nähe Wullowitz Linecká 263, 38241 Kaplice",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st039",
+    "region": "Wien",
+    "raw_name_address": "Wien S1 Vorarlberger Allee 3, 1230 Wien 00.00-24.00",
+    "title": "Wien S1 Vorarlberger Allee 3, 1230 Wien",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st040",
+    "region": "Wien",
+    "raw_name_address": "Turmöl - Eibesbrunn, Wienerstr. 5, 2203 Eibesbrunn 00.00-24.00",
+    "title": "Turmöl - Eibesbrunn, Wienerstr. 5, 2203 Eibesbrunn",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st041",
+    "region": "Burgenland",
+    "raw_name_address": "Neusiedl am See Untere Hauptstraße 87, 7100 Neusiedl am See 00.00-24.00",
+    "title": "Neusiedl am See Untere Hauptstraße 87, 7100 Neusiedl am See",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st042",
+    "region": "Deutschland",
+    "raw_name_address": "Memmingen Oberer Buxheimer Weg 60, 87700 Memmingen 00.00-24-00",
+    "title": "Memmingen Oberer Buxheimer Weg 60, 87700 Memmingen 00.00-24-00",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st043",
+    "region": "Deutschland",
+    "raw_name_address": "Geisingen Im Espel 1, 78187 Geisingen 00.00-24.00",
+    "title": "Geisingen Im Espel 1, 78187 Geisingen",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st044",
+    "region": "Deutschland",
+    "raw_name_address": "Aichstetten Am Waizenhof 10, 88317 Aichstetten 00.00-24.00",
+    "title": "Aichstetten Am Waizenhof 10, 88317 Aichstetten",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st045",
+    "region": "Deutschland",
+    "raw_name_address": "Iffezheim Am Forlenspitzen 1, 76473 Iffezheim 00.00-24.00",
+    "title": "Iffezheim Am Forlenspitzen 1, 76473 Iffezheim",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st046",
+    "region": "Deutschland",
+    "raw_name_address": "Freiburg im Breisgau Sundgauallee 25, 79114 Freiburg 00.00-24.00",
+    "title": "Freiburg im Breisgau Sundgauallee 25, 79114 Freiburg",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st047",
+    "region": "Deutschland",
+    "raw_name_address": "Heimsheim Frankenstraße 10, 71296 Heimsheim 00.00-24.00",
+    "title": "Heimsheim Frankenstraße 10, 71296 Heimsheim",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st048",
+    "region": "Deutschland",
+    "raw_name_address": "Hartheim/Breisach Mühlenstraße 6, 79258 Hartheim am Rhein 00.00-24.00",
+    "title": "Hartheim/Breisach Mühlenstraße 6, 79258 Hartheim am Rhein",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "st049",
+    "region": "Deutschland",
+    "raw_name_address": "Neuenburg Westtanggente 2, 79395 Neuenburg am Rhein 00.00-24.00",
+    "title": "Neuenburg Westtanggente 2, 79395 Neuenburg am Rhein",
+    "lat": null,
+    "lon": null
+  }
+]
