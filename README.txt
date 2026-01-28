@@ -1,14 +1,13 @@
-# Anzeige-Fix (Diesel + AdBlue)
+Update Paket (Adressen + Preise KW5)
 
-## Was ist gefixt?
-- AdBlue wird jetzt angezeigt (aus prices.json -> stations[id].adblue)
-- Preisformatierung sauber (— wenn fehlt, sonst 3 Nachkommastellen)
-- Bessere Darstellung (Adresse + farbige Badges)
+- Deine 50 korrigierten Adressen wurden 1:1 in stations.geo.json übernommen (inkl. Alland Gewerbestr. 15).
+- prices.json wurde aus dem KW5 PDF gemappt (Diesel + AdBlue).
+- Wenn bei einzelnen Stationen AdBlue fehlt (—), steht im KW5 PDF an dieser Stelle kein AdBlue-Wert.
 
-## Was du in GitHub ersetzen musst
-1) app.js -> ersetzen durch die Datei aus diesem ZIP
-2) Optional: style_patch.css in deine style.css kopieren (oder Inhalte am Ende einfügen)
+Wichtig:
+- Doppelanzeigen kommen fast immer von altem Cache oder doppeltem app.js. Bitte nutze die letzte app.js Version aus "MareTankApp_KW5_UI_Fix.zip" (Liste wird vor Render geleert).
 
-## Prüfen
-- /prices.json enthält adblue Werte
-- Webseite neu laden (Strg+F5)
+Upload (Mare-Tank-App Repo):
+1) stations.geo.json ersetzen
+2) prices.json ersetzen
+3) Seite neu laden (Strg+F5 / Handy Cache leeren)
