@@ -6,7 +6,9 @@
     "title": "Innstraße 13, 6122 Fritzens",
     "address": "Innstraße 13, 6122 Fritzens 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "PLOSE – Fritzens, Innstraße 13, 6122 Fritzens"
   },
   {
     "id": "st002",
@@ -15,7 +17,9 @@
     "title": "Endach 33-34, 6330 Kufstein",
     "address": "Endach 33-34, 6330 Kufstein 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "INNTALER, Endach 33-34, 6330 Kufstein"
   },
   {
     "id": "st003",
@@ -24,7 +28,9 @@
     "title": "Drautal Bundesstr. 4, 9990 Debant Nussdorf",
     "address": "Drautal Bundesstr. 4, 9990 Debant Nussdorf 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Drautal Bundesstr. 4, 9990 Lienz Nussdorf-Debant"
   },
   {
     "id": "st004",
@@ -33,7 +39,9 @@
     "title": "Industriestraße 7a, 6841 Mäder",
     "address": "Industriestraße 7a, 6841 Mäder 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TRANS-o-PARK Mäder, Industriestraße 7a, 6841 Mäder"
   },
   {
     "id": "st005",
@@ -42,7 +50,9 @@
     "title": "Autobahn 2R, 6912 Hörbranz",
     "address": "Autobahn 2R, 6912 Hörbranz 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "HÖRBRANZ Autobahn 2R, 6912 Hörbranz"
   },
   {
     "id": "st006",
@@ -51,7 +61,9 @@
     "title": "Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg",
     "address": "Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "WEBERSDORFER, Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg"
   },
   {
     "id": "st007",
@@ -60,7 +72,9 @@
     "title": "Lagerhausstr. 2, 5071 Wals",
     "address": "Lagerhausstr. 2, 5071 Wals 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "(Wals)"
   },
   {
     "id": "st008",
@@ -69,7 +83,9 @@
     "title": "Obergäu 310, 5440 Golling",
     "address": "Obergäu 310, 5440 Golling 05.00-22.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "GOLLING OBERGÄU 310, 5440 Golling"
   },
   {
     "id": "st009",
@@ -78,7 +94,9 @@
     "title": "Industriestraße 8, 5600 St. Johann i. Pongau",
     "address": "Industriestraße 8, 5600 St. Johann i. Pongau 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "LAGERHAUS, Industriestraße 8, 5600 St. Johann i. Pongau"
   },
   {
     "id": "st010",
@@ -87,7 +105,9 @@
     "title": "Salzburgerstr. 90, 5500 Bischofshofen",
     "address": "Salzburgerstr. 90, 5500 Bischofshofen 05:30-22.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Salzburgerstr. 90, 5500 Bischofshofen"
   },
   {
     "id": "st011",
@@ -96,7 +116,9 @@
     "title": "Feuersang 337, 5542 Flachau",
     "address": "Feuersang 337, 5542 Flachau 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "AUSTROPOL FLACHAU, Feuersang 337, 5542 Flachau"
   },
   {
     "id": "st012",
@@ -105,7 +127,9 @@
     "title": "Wagrainerstr. 337, 5542 Flachau",
     "address": "Wagrainerstr. 337, 5542 Flachau 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "AUSTROPOL FLACHAU, Wagrainerstr. 337, 5542 Flachau"
   },
   {
     "id": "st013",
@@ -114,7 +138,9 @@
     "title": "Gewerbestr. 12, 5671 Bruck an der Glocknerstraße",
     "address": "Gewerbestr. 12, 5671 Bruck an der Glocknerstraße 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "LAGERHAUS, Gewerbestr. 12, 5671 Bruck"
   },
   {
     "id": "st014",
@@ -123,7 +149,9 @@
     "title": "Industriestraße 8, 9601 Arnoldstein",
     "address": "Industriestraße 8, 9601 Arnoldstein 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "ARNOLDSTEIN EURONOVA INDUSTRIE PARK EURONOVA"
   },
   {
     "id": "st015",
@@ -132,7 +160,9 @@
     "title": "Lindenweg 21, 9754 Steinfeld",
     "address": "Lindenweg 21, 9754 Steinfeld 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Gutmann",
+    "name": "ENI-Gutmann, Lindenweg 21, 9754 Steinfeld"
   },
   {
     "id": "st016",
@@ -141,7 +171,9 @@
     "title": "Gewerbestr. 8, 9112 Griffen",
     "address": "Gewerbestr. 8, 9112 Griffen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Gewerbestr. 8, 9112 Griffen"
   },
   {
     "id": "st017",
@@ -150,7 +182,9 @@
     "title": "Umfahrungsstr. 23, 9100 Völkermarkt",
     "address": "Umfahrungsstr. 23, 9100 Völkermarkt 06.00-22.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Umfahrungsstr. 23, 9100 Völkermarkt"
   },
   {
     "id": "st018",
@@ -159,7 +193,9 @@
     "title": "Grazerstr. 1, 9400 Wolfsberg",
     "address": "Grazerstr. 1, 9400 Wolfsberg 07.00-22.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Grazerstr. 1, 9400 Wolfsberg"
   },
   {
     "id": "st019",
@@ -168,7 +204,9 @@
     "title": "Gewerbepark, 9711 Paternion",
     "address": "Gewerbepark, 9711 Paternion 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "DTS, Gewerbepark, 9711 Paternion"
   },
   {
     "id": "st020",
@@ -177,7 +215,9 @@
     "title": "Thomas Bohrer-Straße 4, 9020 Klagenfurt",
     "address": "Thomas Bohrer-Straße 4, 9020 Klagenfurt 06.30-21.30",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Eurowag (Klagenfurt)"
   },
   {
     "id": "st021",
@@ -186,7 +226,9 @@
     "title": "Anton Hermann Straße 3, 8073 Feldkirchen",
     "address": "Anton Hermann Straße 3, 8073 Feldkirchen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "LEITNER FELDKIRCHEN, Anton Hermann Straße 3, 8073 Feldkirchen"
   },
   {
     "id": "st022",
@@ -195,7 +237,9 @@
     "title": "Kärntnerstr. 291, 8054 Graz",
     "address": "Kärntnerstr. 291, 8054 Graz 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Kärntnerstr. 291, 8054 Graz"
   },
   {
     "id": "st023",
@@ -204,7 +248,9 @@
     "title": "Bundesstr. 40, 8472 Spielfeld",
     "address": "Bundesstr. 40, 8472 Spielfeld 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Diesel24, Bundesstr. 40, 8472 Spielfeld"
   },
   {
     "id": "st024",
@@ -213,7 +259,9 @@
     "title": "Untergrossau 180, 8261 Sinabelkirchen",
     "address": "Untergrossau 180, 8261 Sinabelkirchen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "MasterDiesel, Untergrossau 180, 8261 Sinabelkirchen"
   },
   {
     "id": "st025",
@@ -222,7 +270,9 @@
     "title": "Leobner Straße 09, 8720 Knittelfeld",
     "address": "Leobner Straße 09, 8720 Knittelfeld 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "SPRINT/LEITNER, Leobner Straße 09, 8720 Knittelfeld"
   },
   {
     "id": "st026",
@@ -231,7 +281,9 @@
     "title": "Zeltenschlagerstraße 2, 8700 Leoben",
     "address": "Zeltenschlagerstraße 2, 8700 Leoben 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Zeltenschlagerstraße 2, 8700 Leoben"
   },
   {
     "id": "st027",
@@ -240,7 +292,9 @@
     "title": "Hohenfeld 89, 8967 Haus im Ennstal",
     "address": "Hohenfeld 89, 8967 Haus im Ennstal 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TURMÖL, Hohenfeld 89, 8967 Haus im Ennstal"
   },
   {
     "id": "st028",
@@ -249,7 +303,9 @@
     "title": "Handelsstr. 7, 4300 St. Valentin",
     "address": "Handelsstr. 7, 4300 St. Valentin 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "MASTER Diesel, Handelsstr. 7, 4300 St. Valentin"
   },
   {
     "id": "st029",
@@ -258,7 +314,9 @@
     "title": "Oldtimerweg 1, 3312 Oed bei Amstetten",
     "address": "Oldtimerweg 1, 3312 Oed bei Amstetten 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "OLDTIMER, Oldtimerweg 1, 3312 Oed bei Amstetten"
   },
   {
     "id": "st030",
@@ -267,7 +325,9 @@
     "title": "Drasenhofen K Vápence 609, 692 01 Mikulov",
     "address": "Drasenhofen K Vápence 609, 692 01 Mikulov 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "MAROLI Mikulov, K Vápence 609, 692 01 Mikulov"
   },
   {
     "id": "st031",
@@ -276,7 +336,9 @@
     "title": "Gewerbestr. 15, 2534 Alland",
     "address": "Gewerbestr. 15, 2534 Alland 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "Klausenstraße / Gewerbestr. EXIT N°15, 2534 Alland"
   },
   {
     "id": "st032",
@@ -285,7 +347,9 @@
     "title": "Hevlin 471, CZ-67169 Hevlin",
     "address": "Hevlin 471, CZ-67169 Hevlin 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "ARMEX, Hevlin 471, CZ-67169 Hevlin"
   },
   {
     "id": "st033",
@@ -294,7 +358,9 @@
     "title": "Andiesen 17, 4975 Andiesen",
     "address": "Andiesen 17, 4975 Andiesen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "SUBEN, Andiesen 17, 4975 Andiesen"
   },
   {
     "id": "st034",
@@ -303,7 +369,9 @@
     "title": "Andiesen 13, 4774 St. Marienkirchen",
     "address": "Andiesen 13, 4774 St. Marienkirchen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "GENOL, Andiesen 13, 4774 St. Marienkirchen/Suben"
   },
   {
     "id": "st035",
@@ -312,7 +380,9 @@
     "title": "Othmar-Spanlang-Straße 1 4780 Brunnwies",
     "address": "Othmar-Spanlang-Straße 1 4780 Brunnwies 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Gutmann",
+    "name": "DISKONT Schärding, 4780 Othmar-Spanlang-Straße 1 4780 Brunnwies"
   },
   {
     "id": "st036",
@@ -321,7 +391,9 @@
     "title": "Kammer 44, 4981 Reichersberg",
     "address": "Kammer 44, 4981 Reichersberg 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "EUROWAG, Ort im Innkreis, Kammer 44, 4981 Reichersberg"
   },
   {
     "id": "st037",
@@ -330,7 +402,9 @@
     "title": "Johannes Humer-Straße 2, 4663 Laakirchen",
     "address": "Johannes Humer-Straße 2, 4663 Laakirchen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "EUROWAG, Johannes Humer-Straße 2, 4663 Laakirchen"
   },
   {
     "id": "st038",
@@ -339,7 +413,9 @@
     "title": "Pummererstraße 22, 4020 Linz",
     "address": "Pummererstraße 22, 4020 Linz 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "PINK Tankstelle, Pummererstraße 22, 4020 Linz"
   },
   {
     "id": "st039",
@@ -348,7 +424,9 @@
     "title": "Linecká 263, 38241 Kaplice",
     "address": "Linecká 263, 38241 Kaplice 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "AS24",
+    "name": "GW Diesel, Linecká 263, 38241 Kaplice"
   },
   {
     "id": "st040",
@@ -357,7 +435,9 @@
     "title": "Vorarlberger Allee 3, 1230 Wien",
     "address": "Vorarlberger Allee 3, 1230 Wien 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "MasterDiesel, Vorarlberger Allee 3, 1230 Wien"
   },
   {
     "id": "st041",
@@ -366,7 +446,9 @@
     "title": "Wienerstr. 5, 2203 Eibesbrunn",
     "address": "Wienerstr. 5, 2203 Eibesbrunn 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Turmöl, Wienerstr. 5, 2203 Eibesbrunn"
   },
   {
     "id": "st042",
@@ -375,7 +457,9 @@
     "title": "Untere Hauptstraße 87, 7100 Neusiedl am See",
     "address": "Untere Hauptstraße 87, 7100 Neusiedl am See 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Turmöl, Untere Hauptstraße 87, 7100 Neusiedl am See"
   },
   {
     "id": "st043",
@@ -384,7 +468,9 @@
     "title": "Oberer Buxheimer Weg 60, 87700 Memmingen",
     "address": "Oberer Buxheimer Weg 60, 87700 Memmingen 00.00-24-00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TP24 Memmingen, Oberer Buxheimer Weg 60, 87700 Memmingen"
   },
   {
     "id": "st044",
@@ -393,7 +479,9 @@
     "title": "Im Espel 1, 78187 Geisingen",
     "address": "Im Espel 1, 78187 Geisingen 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TP24 Geisingen, Im Espel 1, 78187 Geisingen"
   },
   {
     "id": "st045",
@@ -402,7 +490,9 @@
     "title": "Am Waizenhof 10, 88317 Aichstetten",
     "address": "Am Waizenhof 10, 88317 Aichstetten 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TP24 Aichstetten, Am Waizenhof 10, 88317 Aichstetten"
   },
   {
     "id": "st046",
@@ -411,7 +501,9 @@
     "title": "Am Forlenspitzen 1, 76473 Iffezheim",
     "address": "Am Forlenspitzen 1, 76473 Iffezheim 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Q1 Iffezheim, Am Forlenspitzen 1, 76473 Iffezheim"
   },
   {
     "id": "st047",
@@ -420,7 +512,9 @@
     "title": "Sundgauallee 25, 79114 Freiburg",
     "address": "Sundgauallee 25, 79114 Freiburg 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "Esso, Sundgauallee 25, 79114 Freiburg"
   },
   {
     "id": "st048",
@@ -429,7 +523,9 @@
     "title": "Frankenstraße 10, 71296 Heimsheim",
     "address": "Frankenstraße 10, 71296 Heimsheim 00.00-24.00",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": "Eurowag",
+    "name": "TP24 Heimsheim, Frankenstraße 10, 71296 Heimsheim"
   },
   {
     "id": "st049",
@@ -438,7 +534,9 @@
     "title": "Mühlenstraße 6, 79258 Hartheim am Rhein",
     "address": "Mühlenstraße 6, 79258 Hartheim am Rhein",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": null,
+    "name": null
   },
   {
     "id": "st050",
@@ -447,6 +545,8 @@
     "title": "Westtanggente 2, 79395 Neuenburg am Rhein",
     "address": "Westtanggente 2, 79395 Neuenburg am Rhein",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "provider": null,
+    "name": null
   }
 ]

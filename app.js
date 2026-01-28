@@ -24,7 +24,7 @@ async function getLocationOnce(){
 }
 function fmtPrice(v){
   if(v===null || v===undefined) return "—";
-  const n = Number(v);
+  const n=Number(v);
   if(Number.isNaN(n) || n<=0) return "—";
   return n.toFixed(3);
 }
@@ -36,55 +36,74 @@ function navLink(lat,lon,title){
 }
 function setStatus(t){document.getElementById("status").textContent=t;}
 
+function displayName(s){
+  // Station name should be shown first (provider + name), then address below
+  const parts=[];
+  if(s.provider) parts.push(s.provider);
+  if(s.name) parts.push(s.name);
+  const nm=parts.join(" · ").trim();
+  return nm || (s.title||s.address||s.raw_name_address||"Tankstelle");
+}
+
 function render(stations, prices){
   const list=document.getElementById("list");
-  list.innerHTML="";
+  list.innerHTML=""; // prevents duplicates
+  const seen=new Set();
   stations.forEach(s=>{
-    const p=prices?.stations?.[s.id] || {};
-    const diesel = fmtPrice(p.diesel);
-    const adblue = fmtPrice(p.adblue);
-    const dist = (typeof s.distance_km==="number") ? `${s.distance_km.toFixed(1)} km` : "—";
-    const link = navLink(s.lat,s.lon,s.title||s.address||s.raw_name_address);
-    const updated = p.updated || p.updated_at_utc || prices?.generated_at || prices?.generated_at_utc || "";
+    // extra safety: skip duplicates by id
+    if(seen.has(s.id)) return;
+    seen.add(s.id);
+
+    const p=(prices && prices.stations && prices.stations[s.id]) ? prices.stations[s.id] : {};
+    const diesel=fmtPrice(p.diesel);
+    const adblue=fmtPrice(p.adblue);
+    const dist=(typeof s.distance_km==="number")?`${s.distance_km.toFixed(1)} km`:"—";
+    const link=navLink(s.lat,s.lon,s.title||s.address||s.raw_name_address);
+
     const card=document.createElement("div");
     card.className="card";
     card.innerHTML=`
-      <div class="name">${s.name ? `${s.name}` : (s.title||s.address||s.raw_name_address)}</div>
+      <div class="name">${displayName(s)}</div>
       <div class="addr">${s.address||s.raw_name_address||""}</div>
       <div class="meta">
         <span class="badge">📍 ${dist}</span>
         <span class="badge diesel">⛽ Diesel: <b>${diesel}</b> €</span>
         <span class="badge adblue">💧 AdBlue: <b>${adblue}</b> €</span>
       </div>
-      <div class="actions">
-        <a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Navigation öffnen</a>
-      </div>
-      <div class="small">${updated ? `Stand: ${updated}` : ""}</div>
+      <div class="actions"><a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Navigation öffnen</a></div>
     `;
     list.appendChild(card);
   });
 }
 
+let running=false;
 async function main(){
-  setStatus("Lade Daten…");
-  const stations=await loadJson(STATIONS_URL);
-  let prices={}; try{ prices=await loadJson(PRICES_URL);}catch(e){ prices={}; }
-  let user=null; try{ user=await getLocationOnce(); }catch(e){ user=null; }
+  if(running) return;
+  running=true;
+  try{
+    setStatus("Lade Daten…");
+    const stations=await loadJson(STATIONS_URL);
+    let prices={}; try{ prices=await loadJson(PRICES_URL);}catch(e){ prices={}; }
+    let user=null; try{ user=await getLocationOnce(); }catch(e){ user=null; }
 
-  const withDist=stations.map(s=>{
-    if(user && typeof s.lat==="number" && typeof s.lon==="number"){
-      return {...s, distance_km:haversineKm(user.lat,user.lon,s.lat,s.lon)};
-    }
-    return {...s, distance_km:null};
-  }).sort((a,b)=>{
-    if(a.distance_km==null && b.distance_km==null) return 0;
-    if(a.distance_km==null) return 1;
-    if(b.distance_km==null) return -1;
-    return a.distance_km-b.distance_km;
-  });
+    const withDist=stations.map(s=>{
+      if(user && typeof s.lat==="number" && typeof s.lon==="number"){
+        return {...s, distance_km:haversineKm(user.lat,user.lon,s.lat,s.lon)};
+      }
+      return {...s, distance_km:null};
+    }).sort((a,b)=>{
+      if(a.distance_km==null && b.distance_km==null) return 0;
+      if(a.distance_km==null) return 1;
+      if(b.distance_km==null) return -1;
+      return a.distance_km-b.distance_km;
+    });
 
-  setStatus(`Stand: ${prices.generated_at || prices.generated_at_utc || "KW5"} · ${withDist.length} Tankstellen`);
-  render(withDist, prices);
+    // IMPORTANT: remove "KW5" label from UI; show only count + time
+    setStatus(`${withDist.length} Tankstellen · ${new Date().toLocaleString("de-DE")}`);
+    render(withDist, prices);
+  } finally {
+    running=false;
+  }
 }
 
 document.getElementById("btnLocate")?.addEventListener("click", ()=>main().catch(()=>setStatus("Fehler beim Laden/Standort")));
