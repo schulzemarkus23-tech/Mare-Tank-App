@@ -1,9 +1,9 @@
 const STATIONS_URL="stations.geo.json";
 const PRICES_URL="prices.json";
+
 function haversineKm(lat1,lon1,lat2,lon2){
   const R=6371;
-  const dLat=(lat2-lat1)*Math.PI/180;
-  const dLon=(lon2-lon1)*Math.PI/180;
+  const dLat=(lat2-lat1)*Math.PI/180, dLon=(lon2-lon1)*Math.PI/180;
   const a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
   return R*(2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a)));
 }
@@ -22,6 +22,12 @@ async function getLocationOnce(){
     );
   });
 }
+function fmtPrice(v){
+  if(v===null || v===undefined) return "—";
+  const n = Number(v);
+  if(Number.isNaN(n) || n<=0) return "—";
+  return n.toFixed(3);
+}
 function navLink(lat,lon,title){
   if(typeof lat==="number" && typeof lon==="number"){
     return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
@@ -29,36 +35,42 @@ function navLink(lat,lon,title){
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(title)}`;
 }
 function setStatus(t){document.getElementById("status").textContent=t;}
+
 function render(stations, prices){
   const list=document.getElementById("list");
   list.innerHTML="";
   stations.forEach(s=>{
     const p=prices?.stations?.[s.id] || {};
-    const diesel=p.diesel ?? "—";
-    const dist=(typeof s.distance_km==="number") ? `${s.distance_km.toFixed(1)} km` : "—";
-    const link=navLink(s.lat,s.lon,s.title||s.raw_name_address);
+    const diesel = fmtPrice(p.diesel);
+    const adblue = fmtPrice(p.adblue);
+    const dist = (typeof s.distance_km==="number") ? `${s.distance_km.toFixed(1)} km` : "—";
+    const link = navLink(s.lat,s.lon,s.title||s.address||s.raw_name_address);
+    const updated = p.updated || p.updated_at_utc || prices?.generated_at || prices?.generated_at_utc || "";
     const card=document.createElement("div");
     card.className="card";
     card.innerHTML=`
-      <div class="name">${s.title || s.raw_name_address}</div>
+      <div class="name">${s.name ? `${s.name}` : (s.title||s.address||s.raw_name_address)}</div>
+      <div class="addr">${s.address||s.raw_name_address||""}</div>
       <div class="meta">
         <span class="badge">📍 ${dist}</span>
-        <span class="badge">⛽ Diesel: ${diesel} €</span>
+        <span class="badge diesel">⛽ Diesel: <b>${diesel}</b> €</span>
+        <span class="badge adblue">💧 AdBlue: <b>${adblue}</b> €</span>
       </div>
       <div class="actions">
-        <a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Google Maps Navigation</a>
+        <a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Navigation öffnen</a>
       </div>
+      <div class="small">${updated ? `Stand: ${updated}` : ""}</div>
     `;
     list.appendChild(card);
   });
 }
+
 async function main(){
   setStatus("Lade Daten…");
   const stations=await loadJson(STATIONS_URL);
-  let prices={};
-  try{ prices=await loadJson(PRICES_URL);}catch(e){ prices={}; }
-  let user=null;
-  try{ user=await getLocationOnce(); }catch(e){ user=null; }
+  let prices={}; try{ prices=await loadJson(PRICES_URL);}catch(e){ prices={}; }
+  let user=null; try{ user=await getLocationOnce(); }catch(e){ user=null; }
+
   const withDist=stations.map(s=>{
     if(user && typeof s.lat==="number" && typeof s.lon==="number"){
       return {...s, distance_km:haversineKm(user.lat,user.lon,s.lat,s.lon)};
@@ -70,8 +82,10 @@ async function main(){
     if(b.distance_km==null) return -1;
     return a.distance_km-b.distance_km;
   });
-  setStatus(`Aktualisiert: ${new Date().toLocaleString("de-DE")} · ${withDist.length} Tankstellen`);
+
+  setStatus(`Stand: ${prices.generated_at || prices.generated_at_utc || "KW5"} · ${withDist.length} Tankstellen`);
   render(withDist, prices);
 }
-document.getElementById("btnLocate").addEventListener("click", ()=>main().catch(()=>setStatus("Fehler beim Laden/Standort")));
+
+document.getElementById("btnLocate")?.addEventListener("click", ()=>main().catch(()=>setStatus("Fehler beim Laden/Standort")));
 main().catch(()=>setStatus("Fehler beim Laden/Standort"));

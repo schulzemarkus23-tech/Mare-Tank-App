@@ -1,0 +1,8 @@
+:root{--overlay:rgba(0,0,0,.55);--card:rgba(0,0,0,.35);--border:rgba(255,255,255,.15);--text:#fff;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px}
+.name{font-weight:700;margin-bottom:4px}
+.addr{font-size:13px;opacity:.9;margin-bottom:8px}
+.badge b{font-weight:800}
+.badge.diesel{background:rgba(255,215,0,.10)}
+.badge.adblue{background:rgba(0,191,255,.10)}
+.small{font-size:12px;opacity:.85;margin-top:6px}
