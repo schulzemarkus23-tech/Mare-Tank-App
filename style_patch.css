@@ -1,8 +1,10 @@
-:root{--overlay:rgba(0,0,0,.55);--card:rgba(0,0,0,.35);--border:rgba(255,255,255,.15);--text:#fff;}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px}
-.name{font-weight:700;margin-bottom:4px}
-.addr{font-size:13px;opacity:.9;margin-bottom:8px}
-.badge b{font-weight:800}
+.card{background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:12px}
+.name{font-weight:800;margin-bottom:4px}
+.addr{font-size:14px;opacity:.95;margin-bottom:4px}
+.hours{font-size:13px;opacity:.9;margin-bottom:10px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;font-size:14px}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.15)}
 .badge.diesel{background:rgba(255,215,0,.10)}
 .badge.adblue{background:rgba(0,191,255,.10)}
-.small{font-size:12px;opacity:.85;margin-top:6px}
+.actions{margin-top:10px}
+.linkbtn{text-decoration:none;color:#fff;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.15);font-size:14px;display:inline-block}

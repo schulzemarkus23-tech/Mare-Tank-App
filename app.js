@@ -28,49 +28,57 @@ function fmtPrice(v){
   if(Number.isNaN(n) || n<=0) return "—";
   return n.toFixed(3);
 }
-function navLink(lat,lon,title){
+function navLink(lat,lon,query){
   if(typeof lat==="number" && typeof lon==="number"){
     return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
   }
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(title)}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
-function setStatus(t){document.getElementById("status").textContent=t;}
+function setStatus(t){const el=document.getElementById("status"); if(el) el.textContent=t;}
 
-function displayName(s){
-  // Station name should be shown first (provider + name), then address below
+function stationTitle(s){
+  // Show provider + name first
   const parts=[];
   if(s.provider) parts.push(s.provider);
   if(s.name) parts.push(s.name);
-  const nm=parts.join(" · ").trim();
-  return nm || (s.title||s.address||s.raw_name_address||"Tankstelle");
+  const t=parts.join(" · ").trim();
+  return t || "Tankstelle";
 }
 
 function render(stations, prices){
   const list=document.getElementById("list");
-  list.innerHTML=""; // prevents duplicates
+  list.innerHTML="";
   const seen=new Set();
+
   stations.forEach(s=>{
-    // extra safety: skip duplicates by id
     if(seen.has(s.id)) return;
     seen.add(s.id);
 
-    const p=(prices && prices.stations && prices.stations[s.id]) ? prices.stations[s.id] : {};
+    const p=(prices?.stations?.[s.id]) || {};
     const diesel=fmtPrice(p.diesel);
     const adblue=fmtPrice(p.adblue);
-    const dist=(typeof s.distance_km==="number")?`${s.distance_km.toFixed(1)} km`:"—";
-    const link=navLink(s.lat,s.lon,s.title||s.address||s.raw_name_address);
+
+    const dist = (typeof s.distance_km==="number") ? `${s.distance_km.toFixed(1)} km` : "—";
+    const address = s.address || s.raw_name_address || "";
+    const hours = s.hours ? s.hours.replace("-", " - ") : "—";
+    const link = navLink(s.lat,s.lon,address);
 
     const card=document.createElement("div");
     card.className="card";
     card.innerHTML=`
-      <div class="name">${displayName(s)}</div>
-      <div class="addr">${s.address||s.raw_name_address||""}</div>
+      <div class="name">${stationTitle(s)}</div>
+      <div class="addr">${address}</div>
+      <div class="hours">Öffnungszeiten: ${hours}</div>
+
       <div class="meta">
         <span class="badge">📍 ${dist}</span>
         <span class="badge diesel">⛽ Diesel: <b>${diesel}</b> €</span>
         <span class="badge adblue">💧 AdBlue: <b>${adblue}</b> €</span>
       </div>
-      <div class="actions"><a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Navigation öffnen</a></div>
+
+      <div class="actions">
+        <a class="linkbtn" target="_blank" rel="noopener" href="${link}">🧭 Navigation</a>
+      </div>
     `;
     list.appendChild(card);
   });
@@ -83,7 +91,7 @@ async function main(){
   try{
     setStatus("Lade Daten…");
     const stations=await loadJson(STATIONS_URL);
-    let prices={}; try{ prices=await loadJson(PRICES_URL);}catch(e){ prices={}; }
+    const prices=await loadJson(PRICES_URL).catch(()=>({stations:{}}));
     let user=null; try{ user=await getLocationOnce(); }catch(e){ user=null; }
 
     const withDist=stations.map(s=>{
@@ -98,7 +106,7 @@ async function main(){
       return a.distance_km-b.distance_km;
     });
 
-    // IMPORTANT: remove "KW5" label from UI; show only count + time
+    // IMPORTANT: no "Stand: KW5" anywhere
     setStatus(`${withDist.length} Tankstellen · ${new Date().toLocaleString("de-DE")}`);
     render(withDist, prices);
   } finally {

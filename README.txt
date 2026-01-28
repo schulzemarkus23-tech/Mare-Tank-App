@@ -1,12 +1,25 @@
-Fix: doppelte Namen + KW5 entfernen + Namen wieder davor
+Mare Tank App – Update (AdBlue aus PDF, keine KW5 Anzeige)
 
-Was wurde gefixt?
-- Keine Doppelanzeige mehr (Liste wird geleert, main() Guard, dedup by id)
-- 'KW5' Text unten/oben entfernt -> es wird nur Tankstellenanzahl + Uhrzeit angezeigt
-- Tankstellen-Name wieder davor: Provider + Name werden angezeigt, Adresse darunter
+Was wurde gemacht:
+1) AdBlue-Preise aus der KW5 PDF übernommen und in prices.json eingetragen (kein Live, sondern fester Stand).
+2) stations.geo.json erweitert:
+   - address (ohne Öffnungszeiten)
+   - hours (Öffnungszeiten automatisch aus der Adresse extrahiert)
+   - provider + name bleiben erhalten (Name steht wieder davor)
+3) app.js Layout geändert wie von dir gewünscht:
+   - Tankstellenname oben
+   - Adresse + Öffnungszeiten darunter
+   - Entfernung
+   - Diesel + AdBlue
+   - Navigation Button
+   - KEIN "Stand: KW5" mehr irgendwo.
 
-Upload in GitHub (Mare-Tank-App):
-1) app.js ersetzen
-2) stations.geo.json ersetzen
-3) optional: prices.json ersetzen (falls du die KW5 Datei nutzen willst)
-Dann: Seite neu laden (Strg+F5 / Handy Cache leeren)
+Hinweis:
+Wenn bei einzelnen Stationen AdBlue fehlt ("—"), dann steht in der PDF kein AdBlue-Wert für diese Station.
+
+Upload in GitHub Repo (Mare-Tank-App):
+- stations.geo.json ersetzen
+- prices.json ersetzen
+- app.js ersetzen
+- optional: Inhalt von style_patch.css ans Ende deiner style.css kopieren
+Danach: Seite neu laden (Strg+F5 / Handy Cache leeren)
