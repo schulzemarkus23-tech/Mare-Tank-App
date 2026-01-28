@@ -1,201 +1,250 @@
 {
-  "generated_at_utc": "2026-01-25T22:52:52.951053Z",
+  "generated_at": "KW5 PDF",
   "stations": {
     "st001": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.1808,
+      "adblue": 0.625,
+      "updated": "KW5 PDF"
     },
     "st002": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.1808,
+      "adblue": 0.6667,
+      "updated": "KW5 PDF"
     },
     "st003": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.038,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st004": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.186,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st005": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.141,
+      "adblue": 0.387,
+      "updated": "KW5 PDF"
     },
     "st006": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.151,
+      "adblue": 0.659,
+      "updated": "KW5 PDF"
     },
     "st007": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.184,
+      "adblue": 0.682,
+      "updated": "KW5 PDF"
     },
     "st008": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.2,
+      "adblue": 0.834,
+      "updated": "KW5 PDF"
     },
     "st009": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.172,
+      "adblue": 0.852,
+      "updated": "KW5 PDF"
     },
     "st010": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.203,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st011": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.189,
+      "adblue": 0.647,
+      "updated": "KW5 PDF"
     },
     "st012": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.189,
+      "adblue": 0.647,
+      "updated": "KW5 PDF"
     },
     "st013": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.185,
+      "adblue": 0.537,
+      "updated": "KW5 PDF"
     },
     "st014": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.203,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st015": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.2,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st016": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.169,
+      "adblue": 0.671,
+      "updated": "KW5 PDF"
     },
     "st017": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.2233,
+      "adblue": 0.8342,
+      "updated": "KW5 PDF"
     },
     "st018": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": 0.897,
+      "updated": "KW5 PDF"
     },
     "st019": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.2,
+      "adblue": 0.897,
+      "updated": "KW5 PDF"
     },
     "st020": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st021": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.185,
+      "adblue": 0.716,
+      "updated": "KW5 PDF"
     },
     "st022": {
       "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st023": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st024": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.23,
+      "adblue": 0.632,
+      "updated": "KW5 PDF"
     },
     "st025": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.203,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st026": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.224,
+      "adblue": 0.706,
+      "updated": "KW5 PDF"
     },
     "st027": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": 0.897,
+      "updated": "KW5 PDF"
     },
     "st028": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.232,
+      "adblue": 0.632,
+      "updated": "KW5 PDF"
     },
     "st029": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.146,
+      "adblue": 0.387,
+      "updated": "KW5 PDF"
     },
     "st030": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.211,
+      "adblue": 0.527,
+      "updated": "KW5 PDF"
     },
     "st031": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.149,
+      "adblue": 0.487,
+      "updated": "KW5 PDF"
     },
     "st032": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": 0.897,
+      "updated": "KW5 PDF"
     },
     "st033": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.16,
+      "adblue": 0.487,
+      "updated": "KW5 PDF"
     },
     "st034": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.216,
+      "adblue": 0.706,
+      "updated": "KW5 PDF"
     },
     "st035": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st036": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st037": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.023,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st038": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.344,
+      "adblue": 0.657,
+      "updated": "KW5 PDF"
     },
     "st039": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.328,
+      "adblue": 0.657,
+      "updated": "KW5 PDF"
     },
     "st040": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.328,
+      "adblue": 0.657,
+      "updated": "KW5 PDF"
     },
     "st041": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.3,
+      "adblue": 0.844,
+      "updated": "KW5 PDF"
     },
     "st042": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.464,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st043": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.328,
+      "adblue": 0.657,
+      "updated": "KW5 PDF"
     },
     "st044": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.1808,
+      "adblue": 0.6667,
+      "updated": "KW5 PDF"
     },
     "st045": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.167,
+      "adblue": 0.723,
+      "updated": "KW5 PDF"
     },
     "st046": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": 0.897,
+      "updated": "KW5 PDF"
     },
     "st047": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.201,
+      "adblue": null,
+      "updated": "KW5 PDF"
     },
     "st048": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.127,
+      "adblue": 0.82,
+      "updated": "KW5 PDF"
     },
     "st049": {
-      "diesel": null,
-      "updated_at_utc": "2026-01-25T22:52:52.951053Z"
+      "diesel": 1.1402,
+      "adblue": 0.561,
+      "updated": "KW5 PDF"
     }
   }
 }

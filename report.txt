@@ -1,0 +1,49 @@
+st001 | AS24 | Industriestraße 8, 9601 Arnoldstein | Diesel=1.1808 | AdBlue=0.625
+st002 | AS24 | SUBEN, Andiesen 17, 4975 Andiesen | Diesel=1.1808 | AdBlue=0.6667
+st003 | Eurowag | GENOL, Andiesen 13, 4774 St. Marienkirchen/Suben | Diesel=1.038 | AdBlue=None
+st004 | Gutmann | DISKONT Schärding, 4780 Othmar-Spanlang-Straße 1 4780 Brunnwies | Diesel=1.186 | AdBlue=None
+st005 | Eurowag | EUROWAG, Ort im Innkreis, Kammer 44, 4981 Reichersberg | Diesel=1.141 | AdBlue=0.387
+st006 | Eurowag | PLOSE – Fritzens, Innstraße 13, 6122 Fritzens | Diesel=1.151 | AdBlue=0.659
+st007 | Eurowag | TRANS-o-PARK Mäder, Industriestraße 7a, 6841 Mäder | Diesel=1.184 | AdBlue=0.682
+st008 | AS24 | HÖRBRANZ Autobahn 2R, 6912 Hörbranz | Diesel=1.2 | AdBlue=0.834
+st009 | Eurowag | WEBERSDORFER, Franz-Wolfram-Schwererstr. 38a, 5020 Salzburg | Diesel=1.172 | AdBlue=0.852
+st010 | Eurowag | LAGERHAUS, Lagerhausstr. 2, 5071 Wals | Diesel=1.203 | AdBlue=None
+st011 | Eurowag | HETTEGER, Golling, Obergäu 310, 5440 Golling | Diesel=1.189 | AdBlue=0.647
+st012 | AS24 | GOLLING OBERGÄU 310, 5440 Golling | Diesel=1.189 | AdBlue=0.647
+st013 | Eurowag | INNTALER, Endach 33-34, 6330 Kufstein | Diesel=1.185 | AdBlue=0.537
+st014 | Eurowag | LAGERHAUS, Industriestraße 8, 5600 St. Johann i. Pongau | Diesel=1.203 | AdBlue=None
+st015 | Eurowag | TURMÖL, Salzburgerstr. 90, 5500 Bischofshofen | Diesel=1.2 | AdBlue=None
+st016 | Eurowag | AUSTROPOL FLACHAU, Feuersang 337, 5542 Flachau | Diesel=1.169 | AdBlue=0.671
+st017 | AS24 | AUSTROPOL FLACHAU, Wagrainerstr. 337, 5542 Flachau | Diesel=1.2233 | AdBlue=0.8342
+st018 | Eurowag | TURMÖL, Gewerbestr. 8, 9112 Griffen | Diesel=1.201 | AdBlue=0.897
+st019 | Eurowag | TURMÖL, Umfahrungsstr. 23, 9100 Völkermarkt | Diesel=1.2 | AdBlue=0.897
+st020 | Eurowag | TURMÖL, Grazerstr. 1, 9400 Wolfsberg | Diesel=1.201 | AdBlue=None
+st021 | Eurowag | DTS, Gewerbepark, 9711 Paternion | Diesel=1.185 | AdBlue=0.716
+st022 | Gutmann | ENI-Gutmann, Lindenweg 21, 9754 Steinfeld | Diesel=None | AdBlue=None
+st023 | Eurowag | TURMÖL, Drautal Bundesstr. 4, 9990 Lienz Nussdorf-Debant | Diesel=1.201 | AdBlue=None
+st024 | Eurowag | Diesel24, A2 Exit Klagenfurt Ost, Thomas,- Bohrer-Straße 4, 9020 Klagenfurt | Diesel=1.23 | AdBlue=0.632
+st025 | Eurowag | LAGERHAUS, Gewerbestr. 12, 5671 Bruck | Diesel=1.203 | AdBlue=None
+st026 | Eurowag | LEITNER FELDKIRCHEN, Anton Hermann Straße 3, 8073 Feldkirchen | Diesel=1.224 | AdBlue=0.706
+st027 | Eurowag | TURMÖL, Kärntnerstr. 291, 8054 Graz | Diesel=1.201 | AdBlue=0.897
+st028 | Eurowag | Diesel24, Bundesstr. 40, 8472 Spielfeld | Diesel=1.232 | AdBlue=0.632
+st029 | Eurowag | EUROWAG, Johannes Humer-Straße 2, 4663 Laakirchen | Diesel=1.146 | AdBlue=0.387
+st030 | Eurowag | PINK Tankstelle, Pummererstraße 22, 4020 Linz | Diesel=1.211 | AdBlue=0.527
+st031 | Eurowag | MASTER Diesel, Handelsstr. 7, 4300 St. Valentin | Diesel=1.149 | AdBlue=0.487
+st032 | Eurowag | OLDTIMER, Oldtimerweg 1, 3312 Oed bei Amstetten | Diesel=1.201 | AdBlue=0.897
+st033 | Eurowag | MasterDiesel, Untergrossau 180, 8261 Sinabelkirchen | Diesel=1.16 | AdBlue=0.487
+st034 | Eurowag | SPRINT/LEITNER, Leobner Straße 09, 8720 Knittelfeld | Diesel=1.216 | AdBlue=0.706
+st035 | Eurowag | TURMÖL, Zeltenschlagerstraße 2, 8700 Leoben | Diesel=1.201 | AdBlue=None
+st036 | Eurowag | TURMÖL, Hohenfeld 89, 8967 Haus im Ennstal | Diesel=1.201 | AdBlue=None
+st037 | Eurowag | MAROLI Mikulov, K Vápence 609, 692 01 Mikulov | Diesel=1.023 | AdBlue=None
+st038 | Eurowag | TP24 Memmingen, Oberer Buxheimer Weg 60, 87700 Memmingen | Diesel=1.344 | AdBlue=0.657
+st039 | Eurowag | TP24 Geisingen, Im Espel 1, 78187 Geisingen | Diesel=1.328 | AdBlue=0.657
+st040 | Eurowag | TP24 Aichstetten, Am Waizenhof 10, 88317 Aichstetten | Diesel=1.328 | AdBlue=0.657
+st041 | Eurowag | Q1 Iffezheim, Am Forlenspitzen 1, 76473 Iffezheim | Diesel=1.3 | AdBlue=0.844
+st042 | Eurowag | Esso, Sundgauallee 25, 79114 Freiburg | Diesel=1.464 | AdBlue=None
+st043 | Eurowag | TP24 Heimsheim, Frankenstraße 10, 71296 Heimsheim | Diesel=1.328 | AdBlue=0.657
+st044 | AS24 | Klausenstraße / Gewerbestr. EXIT N°15, 2534 Alland | Diesel=1.1808 | AdBlue=0.6667
+st045 | Eurowag | MasterDiesel, Vorarlberger Allee 3, 1230 Wien | Diesel=1.167 | AdBlue=0.723
+st046 | Eurowag | Turmöl, Wienerstr. 5, 2203 Eibesbrunn | Diesel=1.201 | AdBlue=0.897
+st047 | Eurowag | Turmöl, Untere Hauptstraße 87, 7100 Neusiedl am See | Diesel=1.201 | AdBlue=None
+st048 | Eurowag | ARMEX, Hevlin 471, CZ-67169 Hevlin | Diesel=1.127 | AdBlue=0.82
+st049 | AS24 | GW Diesel, Linecká 263, 38241 Kaplice | Diesel=1.1402 | AdBlue=0.561
