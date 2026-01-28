@@ -18,8 +18,8 @@
       "adblue": 0.682
     },
     "st005": {
-      "diesel": 1.2,
-      "adblue": 0.834
+      "diesel": 0.834,
+      "adblue": null
     },
     "st006": {
       "diesel": 1.172,
@@ -30,7 +30,7 @@
       "adblue": null
     },
     "st008": {
-      "diesel": 1.189,
+      "diesel": 0.8342,
       "adblue": 0.647
     },
     "st009": {
@@ -39,22 +39,22 @@
     },
     "st010": {
       "diesel": 1.2,
-      "adblue": null
+      "adblue": 1.2
     },
     "st011": {
       "diesel": 1.169,
       "adblue": 0.671
     },
     "st012": {
-      "diesel": 1.2233,
-      "adblue": 0.8342
+      "diesel": 0.8342,
+      "adblue": null
     },
     "st013": {
       "diesel": 1.203,
       "adblue": null
     },
     "st014": {
-      "diesel": 1.1808,
+      "diesel": 0.6667,
       "adblue": 0.625
     },
     "st015": {
@@ -118,28 +118,28 @@
       "adblue": 0.897
     },
     "st030": {
-      "diesel": 1.023,
-      "adblue": null
+      "diesel": 1.122,
+      "adblue": 1.023
     },
     "st031": {
-      "diesel": 1.1808,
-      "adblue": 0.6667
+      "diesel": 0.6667,
+      "adblue": null
     },
     "st032": {
       "diesel": 1.127,
       "adblue": 0.82
     },
     "st033": {
-      "diesel": 1.1808,
-      "adblue": 0.6667
+      "diesel": 0.6667,
+      "adblue": null
     },
     "st034": {
-      "diesel": 1.038,
-      "adblue": null
+      "diesel": 1.168,
+      "adblue": 1.038
     },
     "st035": {
       "diesel": 1.186,
-      "adblue": null
+      "adblue": 1.2
     },
     "st036": {
       "diesel": 1.141,
@@ -154,8 +154,8 @@
       "adblue": 0.527
     },
     "st039": {
-      "diesel": 1.1402,
-      "adblue": 0.561
+      "diesel": 0.561,
+      "adblue": null
     },
     "st040": {
       "diesel": 1.167,

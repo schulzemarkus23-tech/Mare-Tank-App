@@ -1,25 +1,21 @@
-Mare Tank App – Update (AdBlue aus PDF, keine KW5 Anzeige)
+Fix: fehlende AdBlue-Werte (KW5 PDF) + Öffnungszeiten ergänzt
+
+Warum fehlte AdBlue?
+- Einige AdBlue-Werte im PDF sind > 0.9 (z.B. 1.038, 1.023). Die alte Logik hat das fälschlich als Diesel erkannt.
+- Neue Logik nutzt Spaltenpositionen im PDF (Diesel-Spalten vs AdBlue-Spalten).
 
 Was wurde gemacht:
-1) AdBlue-Preise aus der KW5 PDF übernommen und in prices.json eingetragen (kein Live, sondern fester Stand).
-2) stations.geo.json erweitert:
-   - address (ohne Öffnungszeiten)
-   - hours (Öffnungszeiten automatisch aus der Adresse extrahiert)
-   - provider + name bleiben erhalten (Name steht wieder davor)
-3) app.js Layout geändert wie von dir gewünscht:
-   - Tankstellenname oben
-   - Adresse + Öffnungszeiten darunter
-   - Entfernung
-   - Diesel + AdBlue
-   - Navigation Button
-   - KEIN "Stand: KW5" mehr irgendwo.
+1) prices.json neu erzeugt: Diesel/AdBlue exakt aus KW5 PDF nach Spaltenposition.
+   - Mikulov (AdBlue 1.023) ist jetzt drin
+   - Andiesen 13 (AdBlue 1.038) ist jetzt drin
+   - Hartheim (AdBlue 0.657) ist jetzt drin
+   - Wals/Debant/Bruck/Wolfsberg/Leoben/... bleiben ohne AdBlue, weil im PDF '-' steht (kein Wert).
+2) Öffnungszeiten ergänzt:
+   - Neuenburg: 00.00-24.00
+   - Hartheim: 00.00-24.00
 
-Hinweis:
-Wenn bei einzelnen Stationen AdBlue fehlt ("—"), dann steht in der PDF kein AdBlue-Wert für diese Station.
-
-Upload in GitHub Repo (Mare-Tank-App):
-- stations.geo.json ersetzen
+Upload in GitHub:
 - prices.json ersetzen
-- app.js ersetzen
-- optional: Inhalt von style_patch.css ans Ende deiner style.css kopieren
-Danach: Seite neu laden (Strg+F5 / Handy Cache leeren)
+- stations.geo.json ersetzen
+- app.js bleibt gleich (optional ersetzen)
+Danach: Strg+F5 / Handy Cache leeren.

@@ -533,7 +533,7 @@
     "name": null,
     "region": "Deutschland",
     "address": "Mühlenstraße 6, 79258 Hartheim am Rhein",
-    "hours": null,
+    "hours": "00.00-24.00",
     "raw_name_address": "Mühlenstraße 6, 79258 Hartheim am Rhein",
     "lat": null,
     "lon": null
@@ -544,7 +544,7 @@
     "name": null,
     "region": "Deutschland",
     "address": "Westtanggente 2, 79395 Neuenburg am Rhein",
-    "hours": null,
+    "hours": "00.00-24.00",
     "raw_name_address": "Westtanggente 2, 79395 Neuenburg am Rhein",
     "lat": null,
     "lon": null

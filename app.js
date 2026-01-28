@@ -37,12 +37,10 @@ function navLink(lat,lon,query){
 function setStatus(t){const el=document.getElementById("status"); if(el) el.textContent=t;}
 
 function stationTitle(s){
-  // Show provider + name first
   const parts=[];
   if(s.provider) parts.push(s.provider);
   if(s.name) parts.push(s.name);
-  const t=parts.join(" · ").trim();
-  return t || "Tankstelle";
+  return parts.join(" · ").trim() || "Tankstelle";
 }
 
 function render(stations, prices){
@@ -59,9 +57,9 @@ function render(stations, prices){
     const adblue=fmtPrice(p.adblue);
 
     const dist = (typeof s.distance_km==="number") ? `${s.distance_km.toFixed(1)} km` : "—";
-    const address = s.address || s.raw_name_address || "";
+    const address = s.address || "";
     const hours = s.hours ? s.hours.replace("-", " - ") : "—";
-    const link = navLink(s.lat,s.lon,address);
+    const link = navLink(s.lat,s.lon, address || (s.raw_name_address||""));
 
     const card=document.createElement("div");
     card.className="card";
@@ -106,7 +104,7 @@ async function main(){
       return a.distance_km-b.distance_km;
     });
 
-    // IMPORTANT: no "Stand: KW5" anywhere
+    // NO "Stand: KW5" anywhere
     setStatus(`${withDist.length} Tankstellen · ${new Date().toLocaleString("de-DE")}`);
     render(withDist, prices);
   } finally {
