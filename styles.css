@@ -211,3 +211,22 @@ body{
   display:none;
 }
 .toast.show{display:block}
+
+
+/* 🌙 / ☀️ Day-Night Mode */
+body.light {
+  --bg1: #f4f6fb;
+  --bg2: #e9ecf3;
+  --card: rgba(255,255,255,.9);
+  --text: #0f172a;
+}
+
+.toggle-theme {
+  margin-left: 12px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.15);
+  color: white;
+  font-size: 14px;
+}
